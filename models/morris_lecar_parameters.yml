@@ -1,0 +1,49 @@
+# Morris-Lecar simulation parameters
+# !IMPORTANT: append any new parameters
+2d:
+  t_stop: 1500              
+  dt: 0.1                 
+  C: 2.0                 
+  v_rest: -50.0              
+  E_leak: -70.0         
+  E_slow: -100.0        
+  E_fast: 50.0          
+  g_fast: 20.0    
+  g_slow: 20.0      
+  g_leak: 2.0                
+  beta_m: -1.2             
+  gamma_m: 18.0              
+  beta_w: -13.0 
+  gamma_w: 10.0
+  phi: 0.15
+  obs_index: 0
+  obs_noise: 3.0           
+  I_noise: 25.0              
+  I_stim: 50.0               
+  tau: 5.0
+3d:
+  t_stop: 1500    
+  dt: 0.1       
+  C: 2.0       
+  v_rest: -50.0    
+  E_leak: -70.0
+  E_slow: -100.0
+  E_fast: 50.0
+  E_sub: -100.0 
+  g_fast: 20.0  
+  g_slow: 20.0  
+  g_leak: 2.0
+  g_sub: 2.0      
+  beta_m: -1.2   
+  gamma_m: 18.0    
+  beta_y: -10.0
+  gamma_y: 10.0
+  beta_z: -21.0
+  gamma_z: 15.0
+  phi_y: 0.15
+  phi_z: 0.15
+  obs_index: 0   
+  obs_noise: 3.0 
+  I_noise: 25.0    
+  I_stim: 50.0     
+  tau: 5.0
